@@ -15,8 +15,8 @@ function Error() {
   };
   return (
     <>
-      <View>
-        <Header />
+      <Header />
+      <View style={globalStyle.ml24}>
         <View style={{ margin: "auto", textAlign: "center" }}>
           <HeadSection
             title="입력한 비밀번호가 다릅니다다시 입력해주세요"

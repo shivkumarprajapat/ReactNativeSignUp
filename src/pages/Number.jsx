@@ -2,10 +2,10 @@ import React, { useState } from "react";
 import { Image, StyleSheet, Text, View } from "react-native";
 import { globalStyle } from "../globalStyle";
 import HeadSection from "../Components/HeadSection";
+import Header from "../Components/Header";
 import check from "../icon/check.svg";
 import Dialog from "../Components/Dialog";
 import Input from "../Components/Input";
-import Header from "../Components/Header";
 function Number() {
   const [modalOpen, setModalOpen] = useState(false);
   const OpenModal = () => {
@@ -14,12 +14,25 @@ function Number() {
   const CloseModal = () => {
     setModalOpen(false);
   };
+
+  const data = [
+    {
+      subttl: "기존 번호 로그인 가능",
+      desc:
+        "바뀌기 전 사용하던 번호 입력 -> 로그인 -> 설정 -> 개인정보 수정 ->번호 변경 -> 변경 프로세스 진행"
+    },
+    {
+      subttl: "기존 번호 로그인 가능",
+      desc:
+        "바뀌기 전 사용하던 번호 입력 -> 로그인 -> 설정 -> 개인정보 수정 ->번호 변경 -> 변경 프로세스 진행"
+    }
+  ];
   return (
     <>
-      <View>
-        <Header />
+      <Header />
+      <View style={globalStyle.ml24}>
         <HeadSection title="휴대폰 번호를 입력해주세요" desc="전화번호" />
-        <View style={globalStyle.ml24}>
+        <View>
           <View>
             <Input text="010 1234 5678" />
             <View style={[globalStyle.row, styles.txt]}>
@@ -40,7 +53,13 @@ function Number() {
       <View style={styles.footer}>
         <Text style={styles.footertext}>확인</Text>
       </View>
-      {modalOpen && <Dialog CloseModal={CloseModal} />}
+      {modalOpen && (
+        <Dialog
+          title="휴대폰 번호가 바뀌셨나요?"
+          data={data}
+          CloseModal={CloseModal}
+        />
+      )}
     </>
   );
 }

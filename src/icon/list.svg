@@ -1,0 +1,19 @@
+
+<svg id="ic_list" xmlns="http://www.w3.org/2000/svg" width="24" height="24">
+    <defs>
+        <style>
+            .cls-2{fill:#85858c}
+        </style>
+    </defs>
+    <g id="Group_12358" data-name="Group 12358" transform="translate(-349 -383.329)">
+        <path id="Rectangle_2331" data-name="Rectangle 2331" transform="translate(349 383.329)" style="fill:none" d="M0 0h24v24H0z"/>
+    </g>
+    <g id="Group_12361" data-name="Group 12361" transform="translate(-349 -383.329)">
+        <path id="Path_49744" data-name="Path 49744" class="cls-2" d="M358.143 387.808H371a.8.8 0 0 0 0-1.6h-12.857a.8.8 0 1 0 0 1.6z"/>
+        <path id="Path_49745" data-name="Path 49745" class="cls-2" d="M352.786 384.422a2.585 2.585 0 1 0 2.585 2.586 2.589 2.589 0 0 0-2.585-2.586zm0 3.571a.986.986 0 1 1 .985-.985.987.987 0 0 1-.985.985z"/>
+        <path id="Path_49746" data-name="Path 49746" class="cls-2" d="M371 394.58h-12.857a.8.8 0 1 0 0 1.6H371a.8.8 0 0 0 0-1.6z"/>
+        <path id="Path_49747" data-name="Path 49747" class="cls-2" d="M352.786 392.743a2.585 2.585 0 1 0 2.585 2.586 2.589 2.589 0 0 0-2.585-2.586zm0 3.571a.986.986 0 1 1 .985-.985.986.986 0 0 1-.985.985z"/>
+        <path id="Path_49748" data-name="Path 49748" class="cls-2" d="M371 402.851h-12.857a.8.8 0 1 0 0 1.6H371a.8.8 0 1 0 0-1.6z"/>
+        <path id="Path_49749" data-name="Path 49749" class="cls-2" d="M352.786 401.064a2.585 2.585 0 1 0 2.585 2.586 2.589 2.589 0 0 0-2.585-2.586zm0 3.572a.986.986 0 1 1 .985-.986.987.987 0 0 1-.985.986z"/>
+    </g>
+</svg>

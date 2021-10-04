@@ -15,9 +15,9 @@ function LoginPassword() {
   };
   return (
     <>
-      <View>
-        <Header />
-        <View style={{ margin: "auto", textAlign: "center" }}>
+      <Header />
+      <View style={globalStyle.ml24}>
+        <View style={{ textAlign: "center" }}>
           <HeadSection title="비밀번호를 입력해주세요" />
         </View>
         <View style={{ margin: "auto" }}>

@@ -6,61 +6,59 @@ import Header from "../Components/Header";
 function SignUp() {
   return (
     <>
-      <View>
-        <Header />
+      <Header />
+      <View style={globalStyle.ml24}>
         <HeadSection
           title="짠에 처음이시군요"
           second="환영합니다!"
           desc="가입 방식을 선택해주세요"
         />
-        <View style={globalStyle.ml24}>
-          <View style={globalStyle.mt290}>
-            <View style={globalStyle.mb35}>
-              <View style={styles.signupbtn}>
-                <Image
-                  source={{
-                    uri:
-                      "https://cdn.zeplin.io/6139a4a1e4316bb9277ae55c/assets/85A0E49F-421F-4DF4-AEF9-24D463D610DD.svg"
-                  }}
-                  style={{ width: 16, height: 16, marginLeft: 20 }}
-                />
-                <Text style={[styles.btn, styles.btntxt]}>
-                  휴대폰 번호로 가입
-                </Text>
-              </View>
-            </View>
-            <View style={globalStyle.mb35}>
-              <Text style={globalStyle.border}>
-                <Text style={styles.btnt}>또는</Text>
+        <View style={globalStyle.mt290}>
+          <View style={globalStyle.mb35}>
+            <View style={styles.signupbtn}>
+              <Image
+                source={{
+                  uri:
+                    "https://cdn.zeplin.io/6139a4a1e4316bb9277ae55c/assets/85A0E49F-421F-4DF4-AEF9-24D463D610DD.svg"
+                }}
+                style={{ width: 16, height: 16, marginLeft: 20 }}
+              />
+              <Text style={[styles.btn, styles.btntxt]}>
+                휴대폰 번호로 가입
               </Text>
             </View>
-            <View style={globalStyle.mb24}>
-              <View style={[styles.signupbtn, globalStyle.whitebtn]}>
-                <Image
-                  source={{
-                    uri:
-                      "https://cdn.zeplin.io/6139a4a1e4316bb9277ae55c/assets/85A0E49F-421F-4DF4-AEF9-24D463D610DD.svg"
-                  }}
-                  style={{ width: 16, height: 16, marginLeft: 20 }}
-                />
-                <Text style={[styles.btn, globalStyle.whitetxt]}>
-                  Apple 계정으로 가입
-                </Text>
-              </View>
+          </View>
+          <View style={globalStyle.mb35}>
+            <Text style={globalStyle.border}>
+              <Text style={styles.btnt}>또는</Text>
+            </Text>
+          </View>
+          <View style={globalStyle.mb24}>
+            <View style={[styles.signupbtn, globalStyle.whitebtn]}>
+              <Image
+                source={{
+                  uri:
+                    "https://cdn.zeplin.io/6139a4a1e4316bb9277ae55c/assets/85A0E49F-421F-4DF4-AEF9-24D463D610DD.svg"
+                }}
+                style={{ width: 16, height: 16, marginLeft: 20 }}
+              />
+              <Text style={[styles.btn, globalStyle.whitetxt]}>
+                Apple 계정으로 가입
+              </Text>
             </View>
-            <View>
-              <View style={[styles.signupbtn, globalStyle.yellow]}>
-                <Image
-                  source={{
-                    uri:
-                      "https://cdn.zeplin.io/6139a4a1e4316bb9277ae55c/assets/85A0E49F-421F-4DF4-AEF9-24D463D610DD.svg"
-                  }}
-                  style={{ width: 16, height: 16, marginLeft: 20 }}
-                />
-                <Text style={[styles.btn, globalStyle.yellowtxt]}>
-                  카카오 계정으로 가입
-                </Text>
-              </View>
+          </View>
+          <View>
+            <View style={[styles.signupbtn, globalStyle.yellow]}>
+              <Image
+                source={{
+                  uri:
+                    "https://cdn.zeplin.io/6139a4a1e4316bb9277ae55c/assets/85A0E49F-421F-4DF4-AEF9-24D463D610DD.svg"
+                }}
+                style={{ width: 16, height: 16, marginLeft: 20 }}
+              />
+              <Text style={[styles.btn, globalStyle.yellowtxt]}>
+                카카오 계정으로 가입
+              </Text>
             </View>
           </View>
         </View>

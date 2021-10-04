@@ -1,10 +1,9 @@
 import React from "react";
 import { StyleSheet, Text, View } from "react-native";
-import { globalStyle } from "../globalStyle";
 function Heading({ title, span, second, desc }) {
   return (
     <>
-      <View style={globalStyle.ml24}>
+      <View>
         <View style={styles.row}>
           <Text style={styles.title}>
             {title}
@@ -31,7 +30,7 @@ const styles = StyleSheet.create({
     marginBottom: 23
   },
   desc: {
-    fontSize: 16,
+    fontSize: 15,
     fontFamily: "Pretendard",
     color: "#cdcdd2",
     marginBottom: 8

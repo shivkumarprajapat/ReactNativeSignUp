@@ -5,14 +5,14 @@ import HeadSection from "../Components/HeadSection";
 import Header from "../Components/Header";
 function Login() {
   return (
-    <View>
+    <>
       <Header />
-      <HeadSection
-        title="짠에 돌아오신 것을"
-        second="환영합니다!"
-        desc="처음 가입한 방식으로 로그인 해주세요"
-      />
       <View style={globalStyle.ml24}>
+        <HeadSection
+          title="짠에 돌아오신 것을"
+          second="환영합니다!"
+          desc="처음 가입한 방식으로 로그인 해주세요"
+        />
         <View style={globalStyle.mt290}>
           <View style={globalStyle.mb35}>
             <View style={styles.signupbtn}>
@@ -63,7 +63,7 @@ function Login() {
           </View>
         </View>
       </View>
-    </View>
+    </>
   );
 }
 

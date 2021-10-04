@@ -28,14 +28,18 @@ export const globalStyle = StyleSheet.create({
     padding: 14
   },
   ml24: {
-    marginLeft: 24,
-    marginRight: 24
+    // marginLeft: 24,
+    // marginRight: 24,
+    marginHorizontal: 24
   },
   mb35: {
     marginBottom: 35
   },
   mb32: {
     marginBottom: 32
+  },
+  mb16: {
+    marginBottom: 16
   },
   mb18: {
     marginBottom: 18
@@ -46,13 +50,17 @@ export const globalStyle = StyleSheet.create({
   mt290: { marginTop: 290 },
   input: {
     borderWidth: 1,
-    width: 366,
+    width: "100%",
     height: 56,
     borderRadius: 6,
     borderColor: "#3e3e45",
     fontFamily: "Pretendard",
     fontSize: 22,
-    paddingLeft: 16
+    outlineColor: "#1aff91",
+    paddingLeft: 16,
+    outlineWidth: 1,
+    color: "#6e6e74",
+    backgroundColor: "transparent"
   },
   p: {
     fontFamily: "Pretendard",
@@ -60,7 +68,9 @@ export const globalStyle = StyleSheet.create({
     fontWeight: "500",
     color: "#85858c"
   },
-
+  font16: {
+    fontSize: 16
+  },
   // Button Style Class
 
   smallbtn: {
@@ -104,5 +114,11 @@ export const globalStyle = StyleSheet.create({
     backgroundColor: "transparent",
     borderColor: "#d9354c",
     borderWidth: 1
+  },
+  tcgray: {
+    color: "#cdcdd2"
+  },
+  tcgreen: {
+    color: "#1aff91"
   }
 });

@@ -1,0 +1,18 @@
+
+<svg id="ic_myinfo" xmlns="http://www.w3.org/2000/svg" width="24" height="24">
+    <defs>
+        <style>
+            .cls-1{fill:none}.cls-2{fill:#f5f5f7}
+        </style>
+    </defs>
+    <g id="Group_12357" data-name="Group 12357" transform="translate(-275.032 -383.329)">
+        <path id="Rectangle_2330" data-name="Rectangle 2330" class="cls-1" transform="translate(275.032 383.329)" d="M0 0h24v24H0z"/>
+    </g>
+    <g id="ic_myinfo_toggle">
+        <path id="Rectangle_2336" data-name="Rectangle 2336" class="cls-1" d="M0 0h24v24H0z"/>
+        <g id="Group_12374" data-name="Group 12374" transform="translate(-571 -383.328)">
+            <path id="Path_49772" data-name="Path 49772" class="cls-2" d="M582.986 393.133a4.9 4.9 0 1 0-4.9-4.9 4.907 4.907 0 0 0 4.9 4.9z"/>
+            <path id="Path_49773" data-name="Path 49773" class="cls-2" d="M593.857 404.43c-.826-5.9-5.2-9.862-10.871-9.862s-10.045 3.963-10.871 9.862a2.746 2.746 0 0 0 .609 2.161 2.056 2.056 0 0 0 1.56.737h17.4a2.054 2.054 0 0 0 1.56-.737 2.746 2.746 0 0 0 .613-2.161z"/>
+        </g>
+    </g>
+</svg>
